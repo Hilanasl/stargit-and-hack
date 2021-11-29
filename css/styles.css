@@ -26,3 +26,35 @@ h1 {
     color: steelblue;
     font-size: 1.5em;
 }
+
+#thingsIlike {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+#thingsIlike div {
+    margin-bottom: 1em;
+    padding: 0.5em;
+    border: 1px solid steelblue;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 1fr;
+}
+#thingsIlike div :hover {
+    border: 3px solid steelblue;
+}
+
+#randomthings {
+    text-align: center;
+}
+
+.picture {
+    width: 40px;
+}
+
