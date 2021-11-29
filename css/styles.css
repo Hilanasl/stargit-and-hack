@@ -1,0 +1,28 @@
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 3em;
+}
+
+#imagecontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.name {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.img {
+    width: 500px;
+    margin: 10px;
+}
+
+#why {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: steelblue;
+    font-size: 1.5em;
+}
