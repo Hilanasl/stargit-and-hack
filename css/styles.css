@@ -27,15 +27,20 @@ h1 {
     font-size: 1.5em;
 }
 
+#randomthings {
+    color:#FC466B;
+}
+
 #thingsIlike {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    gap: 20px;
     list-style: none;
 }
 
-#thingsIlike div {
+#thingsIlike a {
     margin-bottom: 1em;
     padding: 0.5em;
     border: 1px solid steelblue;
@@ -44,10 +49,16 @@ h1 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex-basis: 1fr;
+    flex-grow: 1;
+    box-sizing: content-box;
+    background-color: white;
 }
-#thingsIlike div :hover {
+
+#thingsIlike a:hover {
     border: 3px solid steelblue;
+    transform: scale(1.1);
+    color: mediumaquamarine;
+    transition: 0.5s;
 }
 
 #randomthings {
@@ -55,6 +66,11 @@ h1 {
 }
 
 .picture {
-    width: 40px;
+    width: 20%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
 }
 
